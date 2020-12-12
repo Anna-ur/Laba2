@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Задание 16</title>
+	<link rel="stylesheet" type="text/css" href="style10.css">
+	<style>
+		label{
+			width:150px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body> 
+	<div> 
+		<h1>Contact Us</h1>
+		<hr noshade>
+		<form action="" method="put" id="form">
+			<p><label>Name<sup>*</sup></label> 
+				<input tupe="text" placeholder="Your Name" required class="scale" formvalidate minlength="4" maxlength="10" pattern="[A-Za-zА-ЯЁа-яё]{3}.+">
+		<hr class="hr1" noshade>
+		    <p><label>Email<sup>*</sup></label> 
+		    <input type="Email" placeholder="Your Email" required class="scale">
+		<hr class="hr1" noshade>
+		    <p><label>Website<sup>*</sup></label>
+		        <input type="Website" placeholder="Your Website" required class="scale">
+		<hr class="hr1" noshade>
+		    	<div id="Masage"><label>Message:</label></div><div id="text"><textarea name="textarea" cols="45" rows="6" 
+		    		class="scale"></textarea></Div>
+		<hr class="hr1" noshade>
+		</form>
+		<p><button type="submit" class="kn">Submit Form</button></p>
+		
+	</div>
+</body>
+</html>
